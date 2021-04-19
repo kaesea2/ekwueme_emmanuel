@@ -157,6 +157,25 @@
   background: #2b2b2b;
   color: #fff; }
 
+#contact .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  #contact .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    #contact .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: #000; }
+      #contact .boxes div:hover span {
+        color: #000; }
+
 * {
   box-sizing: border-box; }
 
